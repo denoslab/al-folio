@@ -6,9 +6,9 @@ description: <a href="#">Department of Electrical and Software Engineering</a>, 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: ict_pic.jpg
   address: >
-    <p>ICT Building, Floor 5</p>
+    <p>ICT Building</p>
     <p>University of Calgary</p>
     <p>2500 University Dr NW</p>
     <p>Calgary, AB T2N 1N4</p>
