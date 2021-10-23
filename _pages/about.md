@@ -21,7 +21,7 @@ The **D**istributed **E**dge Lear**N**ing and **O**rchestration **S**ystems Lab 
 ##### Distributed learning systems
 We vision that distributed learning systems (DLS) will be ubiquitously deployed in future edge computing systems. DLS supports large-scale data-driven decision-making, monitoring, and recommendation systems. Our application scenarios include connected autonomous vehicles (CAVs), augmented reality (AR), virtual reality (VR), and industrial Internet of things (IIoTs). The distributed systems are based on federated learning technology aiming at reducing communication costs and preserving privacy.
 
-#### Edge Computing
+##### Edge Computing
 The deployments of edge computing systems have been growing rapidly. Our research areas in edge computing include resource allocation, task scheduling, placement decision making, and availability assurance.
 
 ##### Container orchestration systems and AIOps
