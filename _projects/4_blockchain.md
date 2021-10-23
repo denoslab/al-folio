@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
+title: Privacy-reserving Blockchains
 description: another without an image
-img:
-importance: 3
-category: fun
+img: /assets/img/7.jpg
+importance: 4
+category: Research
 ---
 
 Every project has a beautiful feature showcase page.

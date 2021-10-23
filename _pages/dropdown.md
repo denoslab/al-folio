@@ -1,12 +1,12 @@
 ---
 layout: page
-title: submenus
+title: People
 nav: true
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: Steve Drew
+      permalink: https://drewsteve.com
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: Jiajun Wu
+      permalink: https://drewsteve.com
 ---

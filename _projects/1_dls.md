@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: Distributed Learning Systems (DLS)
+description: Distributed Learning Systems (DLS)
+img: /assets/img/12.jpg
+importance: 1
+category: Research
 ---
 
 Every project has a beautiful feature showcase page.

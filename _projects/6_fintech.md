@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: /assets/img/3.jpg
-importance: 2
-category: work
+title: Cryptocurrencies in FinTech
+description: Cryptocurrencies in FinTech
+img: /assets/img/7.jpg
+importance: 6
+category: Research
 ---
 
 Every project has a beautiful feature showcase page.
