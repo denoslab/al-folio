@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Projects in progress by DENOS Lab, funded from multiple sources.
 nav: true
 display_categories: [Research]
 horizontal: false
