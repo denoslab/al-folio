@@ -2,7 +2,7 @@
 layout: page
 title: DevOps and AIOps
 description: DevOps and AIOps
-img: /assets/img/1.jpg
+img: ~
 importance: 5
 category: Research
 ---
