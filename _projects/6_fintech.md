@@ -2,7 +2,7 @@
 layout: page
 title: Cryptocurrencies in FinTech
 description: Cryptocurrencies in FinTech
-img: ~
+img: /assets/img/fintech.jpg
 importance: 6
 category: Research
 ---
