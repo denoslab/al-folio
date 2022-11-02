@@ -32,4 +32,14 @@ With our strong industrial backgrounds, we pay close attention to production-gra
 
 We are experienced in blockchain research and cryptocurrency asset management. We leverage blockchain technology for the decentralization of data aggregation services in federated learning.
 
+## Students
+
+- Marjaneh Hosseini (PhD)
+- Hossein Khadem (PhD)
+- Jiajun Wu (MSc)
+- Ali Abassi (MSc)
+- Yunkai Bao (MSc)
+- Fan Dong (MSc)
+
+
 
