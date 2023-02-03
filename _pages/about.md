@@ -40,6 +40,6 @@ We are experienced in blockchain research and cryptocurrency asset management. W
 - Ali Abassi (MSc)
 - Yunkai Bao (MSc)
 - Fan Dong (MSc)
-
+- Leo Wei (MSc)
 
 
