@@ -34,7 +34,6 @@ We are experienced in blockchain research and cryptocurrency asset management. W
 
 ## Students
 
-- Marjaneh Hosseini (PhD)
 - Hossein Khadem (PhD)
 - Jiajun Wu (MSc)
 - Ali Abassi (MSc)
