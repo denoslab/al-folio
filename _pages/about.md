@@ -34,8 +34,8 @@ With our solid industrial backgrounds, we pay close attention to production-grad
 
 - Hossein Khadem (PhD Student, co-supervised with [Dr. Hadi Hemmati](https://lassonde.yorku.ca/users/hhemmati))
 - Jiajun Wu (PhD Student)
+- Yunkai Bao (PhD Student, co-supervised with [Dr. Xin Wang](https://schulich.ucalgary.ca/contacts/xin-wang))
 - Ali Abassi (MSc Student, co-supervised with [Dr. Xin Wang](https://schulich.ucalgary.ca/contacts/xin-wang))
-- Yunkai Bao (MSc Student, co-supervised with [Dr. Xin Wang](https://schulich.ucalgary.ca/contacts/xin-wang))
 - Fan Dong (MSc Student, co-supervised with [Dr. Henry Leung](https://profiles.ucalgary.ca/henry-leung))
 - Leo Wei (MSc Student, co-supervised with [Dr. Na Li](https://cumming.ucalgary.ca/centres/centre-health-informatics/profiles/na-li))
 
