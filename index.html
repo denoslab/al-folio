@@ -1,0 +1,1862 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>
+
+  DENOS  Lab
+
+
+</title>
+<meta name="description" content="Distributed Edge Learning and Orchestration Systems
+">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+<!-- Styles -->
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🇨🇦</text></svg>">
+
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="canonical" href="/">
+
+<!-- JQuery -->
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+<!-- Theming-->
+
+<script src="/assets/js/theme.js"></script>
+<script src="/assets/js/dark_mode.js"></script>
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-49139741-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-49139741-2');
+</script>
+
+
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/">
+              About
+              
+                <span class="sr-only">(current)</span>
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                People
+                
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              
+              
+                <a class="dropdown-item" href="https://drewsteve.com/" target="_blank" rel="noopener noreferrer">Steve Drew</a>
+              
+              
+              
+                <div class="dropdown-divider"></div>
+              
+              
+              
+                <a class="dropdown-item" href="https://gerrywu.com/" target="_blank" rel="noopener noreferrer">Jiajun Wu</a>
+              
+              
+              </div>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                Projects
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                Publications
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+            <div class="toggle-container">
+              <a id="light-toggle">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+              </a>
+            </div>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">
+     <span class="font-weight-bold">DENOS</span>  Lab
+    </h1>
+     <p class="desc"><a href="https://schulich.ucalgary.ca/electrical-software" target="_blank" rel="noopener noreferrer">Department of Electrical and Software Engineering</a>, University of Calgary</p>
+  </header>
+
+  <article>
+    
+    <div class="profile float-right">
+      
+        <img class="img-fluid z-depth-1 rounded" src="/assets/img/ict_pic.jpg">
+      
+      
+        <div class="address">
+          <p>A sunny day at DENOS Lab</p> <p>ICT Building, UCalgary</p>
+
+        </div>
+      
+    </div>
+    
+
+    <div class="clearfix">
+      <p>The <strong>D</strong>istributed <strong>E</strong>dge Lear<strong>N</strong>ing and <strong>O</strong>rchestration <strong>S</strong>ystems Lab was founded in 2021 by <a href="https://grad.ucalgary.ca/future-students/supervisor/steve-drew" target="_blank" rel="noopener noreferrer">Dr. Steve Drew</a>. DENOS Lab has the following research priorities:</p>
+
+<h5 id="federated-learning-for-edge-service-orchestration">Federated Learning for Edge Service Orchestration</h5>
+
+<p>With federated learning (FL) systems gaining wider adoption for privacy-preserving machine learning in such a a mixture of infrastructure, the heterogeneity is expected to cause lowered performance of the trained models with longer convergence time, leading to excessive energy consumption for both the cloud infrastructure and battery-powered edge IoT devices. Can carefully designed FL methods guide cloud-edge service orchestration to tackle these challenges? Our vision is to develop resilient, sustainable, and privacy-preserving distributed machine learning methods with the outlook of broader adoption of learning from distributed data repositories. Inspired by the challenge of computing node availability, we want to answer the research question with three significant new components that distinguish it from existing studies: novel models that dynamically budget FL client participation based on availability and carbon footprints from FL, innovative algorithms for FL task replication with minimal impact of data privacy and an original prototype service orchestration scheduler for evaluating the proposed methods in actual cloud-edge service orchestration.</p>
+
+<h5 id="federated-learning-for-electrical-health-records-ehrs">Federated Learning for Electrical Health Records (EHRs)</h5>
+
+<p>Federated learning can be valuable for training machine learning models on electronic health records (EHR) data while preserving patient privacy and complying with regulatory requirements like HIPAA (Health Insurance Portability and Accountability Act). We aim to develop novel methods and prototypes. to address key challenges for better utilizing the knowledge from EHRs, including missing data, interoperability, and fairness.</p>
+
+<h2 id="students">Students</h2>
+
+<ul>
+  <li>Guojun Tang (PhD Student)</li>
+  <li>Hossein Khadem (PhD Student)</li>
+  <li>Jiajun Wu (PhD Student)</li>
+  <li>Yunkai Bao (PhD Student)</li>
+  <li>Ali Abassi (MSc Student)</li>
+  <li>Fan Dong (MSc Student)</li>
+  <li>Leo Wei (MSc Student)</li>
+</ul>
+
+
+    </div>
+
+    
+      <div class="news">
+  <h2>News</h2>
+  
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+      
+      
+        <tr>
+          <th scope="row">Apr 2023</th>
+          <td>
+            
+              Three of my graduate students teamed up and won the <a href="https://devpost.com/software/news-guardian" target="_blank" rel="noopener noreferrer">3rd place</a> of the <a href="https://canis-hackathon.devpost.com/" target="_blank" rel="noopener noreferrer">CANIS Hackathon for Data Visualization</a>. Congratulations, Leo, Yunkai, and Jiajun! It was an incredible opportunity for my students to work with misinformation data and explore new techniques. I want to thank Schulich Ignite for organizing this fantastic event.
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th scope="row">Apr 2023</th>
+          <td>
+            
+              My research group teamed up with Illidan Lab at Michigan State University and won the <a href="https://drivendata.co/blog/federated-learning-pets-prize-winners-phases-2-3" target="_blank" rel="noopener noreferrer">3rd place</a> in the <a href="https://petsprizechallenges.com/" target="_blank" rel="noopener noreferrer">U.S. Privacy-enhancing Technologies Prize Challenge</a>. Our solution based on a secure federated learning method was <a href="https://www.youtube.com/watch?v=8nRs3VArnco&amp;t=12544s" target="_blank" rel="noopener noreferrer">profiled at the second Summit for Democracy</a>, convened by U.S. President Joe Biden in March 2023. Congratulation, Fan Dong!
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th scope="row">Jan 2023</th>
+          <td>
+            
+              Our paper “<a href="https://ieeexplore.ieee.org/abstract/document/10032589" target="_blank" rel="noopener noreferrer">UltraMotion: High-precision Ultrasonic Arm Tracking for Real-world Exercises</a>” has been accepted to <em>IEEE Transactions on Mobile Computing</em> for publication.
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th scope="row">Jan 2023</th>
+          <td>
+            
+              Our paper “FedLE: Federated Learning Client Selection with Lifespan Extension for Edge IoT Networks” has been accepted to <em>2023 IEEE International Conference on Communications (ICC)</em> for presentation. Congratulations to Jiajun Wu!
+
+
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <th scope="row">Nov 2022</th>
+          <td>
+            
+              Our paper “USDNL: Uncertainty-based Single Dropout in Noisy Label Learning” has been accepted to <em>Thirty-Seventh AAAI Conference on Artificial Intelligence (AAAI-23)</em> for publication.
+
+
+            
+          </td>
+        </tr>
+      
+      </table>
+    </div>
+  
+</div>
+
+    
+
+    
+      <div class="publications">
+  <h2>Selected Publications</h2>
+  <ol class="bibliography">
+<li>
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">JMLC</abbr>
+    
+  
+  </div>
+
+  <div id="gong2022more" class="col-sm-8">
+    
+      <div class="title">MORE: Toward Improving Author Name Disambiguation in Academic Knowledge Graphs</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Gong, Jibing,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Fang, Xiaohan,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Peng, Jiquan,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhao, Yi,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Jinye, Zhao,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Wang, Chenglong,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Li, Yangyang,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Jingyi, Zhang,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Drew, Steve
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Accepted to International Journal of Machine Learning and Cybernetics</em>
+      
+      
+      
+        2022
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">MASS’22</abbr>
+    
+  
+  </div>
+
+  <div id="yan2022ppgc" class="col-sm-8">
+    
+      <div class="title">PPGC: A Path Planning System by Grid Caching based on Cloud-Edge Collaboration for USV</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Yan, Linjie,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Chen, Haiming,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Tu, Youpeng,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhou, Xinyan,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Drew, Steve
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In The 19th IEEE International Conference on Mobile Ad-Hoc and Smart Systems (MASS 2022)</em>
+      
+      
+      
+        2022
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ICML’22</abbr>
+    
+  
+  </div>
+
+  <div id="zhu2022resilient" class="col-sm-8">
+    
+      <div class="title">Resilient and Communication Efficient Learning for Heterogeneous Federated Systems</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhu, Zhuangdi,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Hong, Junyuan,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Drew, Steve,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Zhou, Jiayu
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In Proceedings of Thirty-ninth International Conference on Machine Learning (ICML 2022)</em>
+      
+      
+      
+        2022
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">IEEE Access</abbr>
+    
+  
+  </div>
+
+  <div id="nguyen2022parked" class="col-sm-8">
+    
+      <div class="title">Parked Vehicles Task Offloading in Edge Computing</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Nguyen, Khoa,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Drew, Steve,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Huang, Changcheng,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Zhou, Jiayu
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>IEEE Access</em>
+      
+      
+      
+        2022
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ICC’21</abbr>
+    
+  
+  </div>
+
+  <div id="nguyen2021edgepv" class="col-sm-8">
+    
+      <div class="title">EdgePV: Collaborative Edge Computing Framework for Task Offloading</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Nguyen, Khoa,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Drew, Steve,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Huang, Changcheng,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Zhou, Jiayu
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In ICC 2021-IEEE International Conference on Communications</em>
+      
+      
+      
+        2021
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">AAAI’20</abbr>
+    
+  
+  </div>
+
+  <div id="zhang2020shoreline" class="col-sm-8">
+    
+      <div class="title">Shoreline: Data-Driven Threshold Estimation of Online Reserves of Cryptocurrency Trading Platforms</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhang, Xitong,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhu, He,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Zhou, Jiayu
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In Proceedings of the AAAI Conference on Artificial Intelligence</em>
+      
+      
+      
+        2020
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CloudNet’20</abbr>
+    
+  
+  </div>
+
+  <div id="nguyen2020collaborative" class="col-sm-8">
+    
+      <div class="title">Collaborative Container-based Parked Vehicle Edge Computing Framework for Online Task Offloading</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Nguyen, Khoa,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Drew, Steve,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Huang, Changcheng,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Zhou, Jiayu
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In 2020 IEEE 9th International Conference on Cloud Networking (CloudNet)</em>
+      
+      
+      
+        2020
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">Blockchain’18</abbr>
+    
+  
+  </div>
+
+  <div id="zhou2018distributed" class="col-sm-8">
+    
+      <div class="title">Distributed data vending on blockchain</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhou, Jiayu,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Tang, Fengyi,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhu, He,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Nan, Ning,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Zhou, Ziheng
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In 2018 IEEE International Conference on Internet of Things (iThings) and IEEE Green Computing and Communications (GreenCom) and IEEE Cyber, Physical and Social Computing (CPSCom) and IEEE Smart Data (SmartData)</em>
+      
+      
+      
+        2018
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">Netsoft’18</abbr>
+    
+  
+  </div>
+
+  <div id="zhu2018edgechain" class="col-sm-8">
+    
+      <div class="title">Edgechain: Blockchain-based multi-vendor mobile edge application placement</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhu, He,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Huang, Changcheng,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Zhou, Jiayu
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In 2018 4th IEEE Conference on Network Softwarization and Workshops (NetSoft)</em>
+      
+      
+      
+        2018
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">Globecom’17</abbr>
+    
+  
+  </div>
+
+  <div id="zhu2017availability" class="col-sm-8">
+    
+      <div class="title">Availability-aware mobile edge application placement in 5g networks</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhu, He,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Huang, Changcheng
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In GLOBECOM 2017-2017 IEEE Global Communications Conference</em>
+      
+      
+      
+        2017
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ETT</abbr>
+    
+  
+  </div>
+
+  <div id="zhu2018edgeplace" class="col-sm-8">
+    
+      <div class="title">EdgePlace: availability-aware placement for chained mobile edge applications</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhu, He,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Huang, Changcheng
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Transactions on Emerging Telecommunications Technologies</em>
+      
+      
+      
+        2018
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">WCMC</abbr>
+    
+  
+  </div>
+
+  <div id="zhu2018iot" class="col-sm-8">
+    
+      <div class="title">Iot-b&amp;b: Edge-based nfv for iot devices with cpe crowdsourcing</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhu, He,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Huang, Changcheng
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>Wireless Communications and Mobile Computing</em>
+      
+      
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">PIMRC’17</abbr>
+    
+  
+  </div>
+
+  <div id="zhu2017vnf" class="col-sm-8">
+    
+      <div class="title">vNF-B&amp;B: Enabling edge-based NFV with CPE resource sharing</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhu, He,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Huang, Changcheng
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In 2017 IEEE 28th Annual International Symposium on Personal, Indoor, and Mobile Radio Communications (PIMRC)</em>
+      
+      
+      
+        2017
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+<li>
+<div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">VTC-Fall’17</abbr>
+    
+  
+  </div>
+
+  <div id="zhu2017cost" class="col-sm-8">
+    
+      <div class="title">Cost-efficient VNF placement strategy for IoT networks with availability assurance</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Zhu, He,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  and Huang, Changcheng
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In 2017 IEEE 86th Vehicular Technology Conference (VTC-Fall)</em>
+      
+      
+      
+        2017
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+
+    <!-- Hidden bibtex block -->
+    
+  </div>
+</div>
+</li>
+</ol>
+</div>
+
+    
+
+    
+    <div class="social">
+      <div class="contact-icons">
+        <a href="mailto:%69%6E%66%6F@%64%65%6E%6F%73%6C%61%62.%63%6F%6D"><i class="fas fa-envelope"></i></a>
+
+
+
+
+<a href="https://github.com/denoslab" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://denoslab.com/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
+
+      </div>
+      <div class="contact-note">Email is the preferred contact method.
+</div>
+    </div>
+    
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    © Copyright 2023 DENOS  Lab.
+    Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
+
+    
+    
+    Last updated: November 28, 2023.
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Medium Zoom JS -->
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
+<script src="/assets/js/zoom.js"></script>
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+</html>
